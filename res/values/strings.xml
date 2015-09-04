@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DailySmsScheduler</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="limitDateLabel">Limit Date</string>
+    <string name="senderLabel">Specify Sender</string>
+    <string name="contentLabel">Content</string>
+    <string name="scheduleButtonLabel">Schedule</string>
+    <string name="manageButtonLabel">Manage Scheduled SMS</string>
+    <string name="repeatLabel">Repeat this daily?</string>
+    <string name="title_activity_manage_scheduled_sms">ManageScheduledSmsActivity</string>
+    <string name="removeButtonLabel">Remove Selected</string>
+    <string name="backButtonLabel">Back</string>
+    <string name="killButtonLabel">Kill Thread</string>
+    <string name="scheduledTimeLabel">Scheduled Time</string>
+
+</resources>

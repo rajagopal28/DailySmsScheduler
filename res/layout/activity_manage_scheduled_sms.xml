@@ -1,0 +1,76 @@
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ManageScheduledSmsActivity" >
+      
+   <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+       >
+       <LinearLayout
+  	    android:id="@+id/linearlayout1"
+  	    android:layout_height="wrap_content"
+  	    android:layout_width="match_parent"
+  	    android:orientation="horizontal" 
+  	    >  	  
+  	</LinearLayout>
+  	 <RelativeLayout
+        android:id="@+id/relativelayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="44dp"
+        android:text="@string/limitDateLabel"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <DatePicker
+        android:id="@+id/limitDatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1" />
+
+    <Button
+        android:id="@+id/removeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/limitDatePicker"
+        android:layout_marginTop="37dp"
+        android:text="@string/removeButtonLabel" />
+
+    <Button
+        android:id="@+id/killButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/removeButton"
+        android:layout_alignBottom="@+id/removeButton"
+        android:layout_toLeftOf="@+id/removeButton"
+        android:text="@string/killButtonLabel" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBaseline="@+id/killButton"
+        android:layout_alignBottom="@+id/killButton"
+        android:layout_toLeftOf="@+id/killButton"
+        android:text="@string/backButtonLabel" />
+  	</RelativeLayout>
+    </LinearLayout>
+
+    </ScrollView>
